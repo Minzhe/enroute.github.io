@@ -1,528 +1,662 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
-<html lang="en">
-
+<html lang="en-US">
 <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <link href="https://www.ibm.com/favicon.ico" rel="icon" />
-    <link rel="icon" href="http://ibm.github.io/favicon.ico" type="image/vnd.microsoft.icon" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
+    <!--<link rel="pingback" href="http://owwwlab.com/wp-faculty-2/xmlrpc.php" />-->
 
-    <title>IBM @ Github</title>
+    <title>Faculty &#8211; Just another WordPress site</title>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+    <link rel='dns-prefetch' href='//s.w.org'/>
+    <!--<link rel="alternate" type="application/rss+xml" title="Faculty &raquo; Feed" href="http://owwwlab.com/wp-faculty-2/feed/" />-->
+    <!--<link rel="alternate" type="application/rss+xml" title="Faculty &raquo; Comments Feed" href="http://owwwlab.com/wp-faculty-2/comments/feed/" />-->
+    <!--<link rel="alternate" type="application/rss+xml" title="Faculty &raquo; Home Comments Feed" href="http://owwwlab.com/wp-faculty-2/sample-page/feed/" />-->
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/",
+            "svgExt": ".svg",
+            "source": {"concatemoji": "http:\/\/owwwlab.com\/wp-faculty-2\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}
+        };
+        !function (a, b, c) {
+            function d(a, b) {
+                var c = String.fromCharCode;
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+                var d = k.toDataURL();
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+                var e = k.toDataURL();
+                return d === e
+            }
 
-    <script src="//cdn.optimizely.com/js/1141215513.js"></script>
-    <script>
-      (function(i, s, o, g, r, a, m) {
-          i['GoogleAnalyticsObject'] = r;
-          i[r] = i[r] || function() {
-              (i[r].q = i[r].q || []).push(arguments)
-          }, i[r].l = 1 * new Date();
-          a = s.createElement(o),
-              m = s.getElementsByTagName(o)[0];
-          a.async = 1;
-          a.src = g;
-          m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            function e(a) {
+                var b;
+                if (!l || !l.fillText) return !1;
+                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                    case"flag":
+                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                    case"emoji":
+                        return b = d([55357, 56692, 8205, 9792, 65039], [55357, 56692, 8203, 9792, 65039]), !b
+                }
+                return !1
+            }
 
-      ga('create', 'UA-41146412-2', 'ibm.github.io');
-      ga('send', 'pageview');
+            function f(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+
+            var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d");
+            for (j = Array("flag", "emoji"), c.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () {
+                c.DOMReady = !0
+            }, c.supports.everything || (h = function () {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () {
+                "complete" === b.readyState && c.readyCallback()
+            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+        }(window, document, window._wpemojiSettings);
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(function() {
-        $('#showallrepos a').click(function(e) {
-          var url = $(this).attr('href');
-          window.location.href = url; // ## change url with hash
-          location.reload(); // ## reload page
-          e.preventDefault(); // ## prevent default click action
-        })
-      })
-    </script>
-    <script>
-      $(function() {
-        $('#showsomerepos a').click(function(e) {
-          history.pushState("", document.title, window.location.pathname + window.location.search);
-          location.reload();
-          e.preventDefault();
-        })
-      })
-    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='font-awesome-four-css' href='css/font-awesome.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='faculty-lato-css'
+          href='https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C100italic%2C300italic%2C400italic&#038;ver=4.9.7'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='bootstrap-style-css' href='css/bootstrap.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='magnific-pupup-css' href='css/magnific-popup.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='faculty-styles-css' href='css/style.css' type='text/css' media=''/>
+    <link rel='stylesheet' id='owl_acadmicons-css' href='css/academicons.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='js_composer_front-css' href='css/js_composer.min.css' type='text/css' media='all'/>
+    <script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/modernizr.custom.63321.js'></script>
+    <!--<link rel='https://api.w.org/' href='http://owwwlab.com/wp-faculty-2/wp-json/' />-->
+    <!--<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://owwwlab.com/wp-faculty-2/xmlrpc.php?rsd" />-->
+    <!--<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://owwwlab.com/wp-faculty-2/wp-includes/wlwmanifest.xml" />-->
 
-    <script src="https://1.www.s81c.com/common/stats/ida_stats.js"></script>
-    <link href="https://1.www.s81c.com/common/v18/css/www.css" rel="stylesheet">
-    <script src="https://1.www.s81c.com/common/v18/js/www.js"></script>
-
+    <link rel="canonical" href="https://minzhe.github.io/"/>
+    <link rel="alternate" type="application/json+oembed"
+          href="http://owwwlab.com/wp-faculty-2/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fowwwlab.com%2Fwp-faculty-2%2F"/>
+    <link rel="alternate" type="text/xml+oembed"
+          href="http://owwwlab.com/wp-faculty-2/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fowwwlab.com%2Fwp-faculty-2%2F&#038;format=xml"/>
+    <script type="text/javascript">
+        var siteUrl = "http://owwwlab.com/wp-faculty-2/";
+        var isSingle = true;
+        var blogUrl = "http://owwwlab.com/wp-faculty-2/blog/";
+        var perfectScroll = "off";
+        var blogAjaxState = "off";
+        window.pubsFilter = "false";
+        var pubsMix = false;
+        window.filteringFlag = false;</script>
+    <link rel="icon" type="image/png" href="">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.min.css" media="screen">
+    <![endif]-->
 </head>
 
-<body>
+<body class="home page-template page-template-page-pagebuilder page-template-page-pagebuilder-php page page-id-2 wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="http://www.ibm.com"><img src="images/ibmneg_white_42x20.png" alt="IBM"></a>
-            <!--a class="navbar-brand" style="float: right" href="http://www.ibm.com/developerworks"><img src="images/dWmark.png" alt="DW"></a-->
-            <a id="dw-nav" class="navbar-brand" style="float: right" href="http://www.ibm.com/developerworks" title="developerWorks"><span class="dw-logo-IBM">IBM</span>&nbsp;<span class="dw-logo-d">d</span><span class="dw-logo-W">W</span></a>
-            <div class="navbar-header">
+<div id="wrapper">
+    <a href="#sidebar" class="mobilemenu"><i class="fa fa-bars"></i></a>
+
+    <div id="sidebar" class="has-bg" style="background-image:url(http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/sidebg-1.jpg);">
+        <div id="sidebar-wrapper">
+            <div id="sidebar-inner">
+                <!-- Profile/logo section-->
+                <div id="profile" class="clearfix">
+                    <div class="portrate">
+                        <a href="#">
+                            <img src="image/minzhe.jpeg" alt="Minzhe Zhang">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <h2>Minzhe Zhang</h2>
+                        <h3>University of Texas Southwestern Medical Center</h3>
+                    </div>
+                </div>
+                <!-- /Profile/logo section-->
+
+                <!-- Main navigation-->
+                <div id="main-nav">
+
+                    <ul id="navigation" class="">
+                        <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-21">
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <span class="fontawesome-text"> Home</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
+                            <a href="pubs.html">
+                                <i class="fa fa-bookmark"></i>
+                                <span class="fontawesome-text"> Publications</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-26" class="ajax-fac menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
+                            <a href="research.html">
+                                <i class="fa fa-area-chart"></i>
+                                <span class="fontawesome-text"> Research</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-25" class="ajax-fac menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
+                            <a href="projects.html"><i class="fa fa-desktop"></i>
+                                <span class="fontawesome-text"> Projects</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-23" class="ajax-fac menu-item menu-item-type-post_type menu-item-object-page menu-item-23">
+                            <a href="gallery.html"><i class="fa fa-camera"></i>
+                                <span class="fontawesome-text"> Gallery</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-22" class="ajax-fac menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
+                            <a href="contact.html"><i class="fa fa-map-marker"></i>
+                                <span class="fontawesome-text"> Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Main navigation-->
+                <!--Sidebar footer-->
+                <!-- Sidebar footer -->
+                <div id="sidebar-footer">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="researchgate"></i></a></li>
+                        </ul>
+                    </div>
+                    <div id="copyright">All rights reserved</div>
+                </div>
+                <!-- /Sidebar footer -->           <!--Sidebar footer-->
             </div>
         </div>
     </div>
-    <!-- main banner-->
-    <div id="ibm-leadspace-head" class="ibm-alternate ibm-padding-top-2 ibm-padding-bottom-1" style="background: url(images/open-bg.jpg) center / cover no-repeat;">
-      <div id="ibm-leadspace-body" class="ibm-padding-top-3 ibm-padding-bottom-1">
-        <div class="ibm-columns ibm-alternate-background">
-          <div class="ibm-col-6-5 ibm-col-medium-1-1">
-            <h1 class="ibm-h1 ibm-medium ibm-padding-bottom-3">IBM open source at GitHub</h1>
-            <!--<h4 class="ibm-h4 ibm-padding-bottom-2">Drive performance and deliver results to transform your enterprise</h4>-->
-            <p class="ibm-button-link ibm-btn-row">
-              <a href="https://developer.ibm.com/code/open" class="ibm-btn-pri ibm-btn-white" data-analytics-category="Leadspace buttons" data-analytics-action="IBM Code Open">Explore IBM open source at IBM Code</a>
-              <a href="https://www.bluemix.net/" class="ibm-btn-sec ibm-btn-white" data-analytics-category="Leadspace buttons" data-analytics-action="BlueMix">Deploy your application to IBM Cloud</a>
-              <a href="https://console.bluemix.net/devops/getting-started" class="ibm-btn-sec ibm-btn-white" data-analytics-category="Leadspace buttons" data-analytics-action="JazzHub">Enhance your GitHub experience with IBM Cloud DevOps</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /main banner -->
 
-    <!-- Main jumbotron for a primary marketing message or call to action
-    <div class="jumbotron">
-        <div class="container">
-            <h1>IBM open source at GitHub</h1>
-            <div class="leadspace-buttons">
-                <a href="https://console.bluemix.net/devops/getting-started" data-analytics-category="Leadspace buttons" data-analytics-action="JazzHub">
-                    <p class="btn btn-primary btn-lg btn-custom-jazz">Enhance your GitHub experience with <b>IBM Cloud DevOps</b>
-                    </p>
-                </a>
-                <a href="https://www.bluemix.net/" data-analytics-category="Leadspace buttons" data-analytics-action="BlueMix">
-                    <p class="btn btn-primary btn-lg btn-custom-bm">Deploy your application to <b>IBM Cloud</b>
-                    </p>
-                </a>
-                <a href="http://developer.ibm.com/code/open" data-analytics-category="Leadspace buttons" data-analytics-action="IBM Code Open">
-                    <p class="btn btn-primary btn-lg btn-custom-dw">Engage with IBM Open Source <b>IBM Code</b>
-                    </p>
-                </a>
-            </div>
-        </div>
-    </div>-->
+    <div id="main">
+        <div class="fac-page home">
+            <div id="inside">
+                <div data-vc-parallax="1.5"
+                     data-vc-parallax-image="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/girl-437989_1920.jpg"
+                     class="vc_row wpb_row vc_row-fluid vc_custom_1430735998856 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
+                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="vc_empty_space" style="height: 100px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                                <h1 class="fac-big-title fac-title text-left home-title" style="color:#4b4b4b"> Jane
+                                    Doe</h1>
 
-    <div class="ibm-columns ibm-padding-top-3">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div id="wrapper">
-                    <div class="navigation ibm-padding-bottom-2">
-                        <div id="showsomerepos" class="section-title show_less">
-                            <a class="title" href="">Show fewer</a>
-                        </div>
-                        <div id="showallrepos" class="section-title show_more">
-                            <a class="title" href="#showall">Show more</a>
-                        </div>
-                        <label for="search" class="col-lg-4 control-label search"><span>Search</span>
-                            <input type="search" id="search" class="search-query span3 filter input-medium" placeholder="Our Repos...">
-                        </label>
-                        <div class="separator gap"></div>
-                        <div id="repos" class="columns collapse-group">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p><span style="color: #000000;">A social psychologist and marketer, Jennifer Doe is the General Atlantic Professor of Marketing and Ormond Family Faculty at Stanford University’s Graduate School of Business. Her research spans time, money and happiness. She focuses on questions such as: What actually makes people happy, as opposed to what they think makes them happy?</span>
+                                        </p>
+                                        <p><span style="color: #000000;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="vc_empty_space" style="height: 100px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="vc_row wpb_row vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper vc_box_circle  vc_box_border_grey"><img
+                                                width="150" height="150"
+                                                src="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/girl-437989_1920-150x150.jpg"
+                                                class="vc_single_image-img attachment-thumbnail" alt=""
+                                                srcset="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/girl-437989_1920-150x150.jpg 150w, http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/girl-437989_1920-80x80.jpg 80w"
+                                                sizes="(max-width: 150px) 100vw, 150px"/></div>
+                                    </figure>
+                                </div>
+
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p style="text-align: center;">I am text block. Click edit button to change this
+                                            text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper vc_box_circle  vc_box_border_grey"><img
+                                                width="150" height="150"
+                                                src="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/woman-578429_1920-150x150.jpg"
+                                                class="vc_single_image-img attachment-thumbnail" alt=""
+                                                srcset="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/woman-578429_1920-150x150.jpg 150w, http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/woman-578429_1920-80x80.jpg 80w, http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/woman-578429_1920.jpg 200w"
+                                                sizes="(max-width: 150px) 100vw, 150px"/></div>
+                                    </figure>
+                                </div>
+
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p style="text-align: center;">I am text block. Click edit button to change this
+                                            text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper vc_box_circle  vc_box_border_grey"><img
+                                                width="150" height="150"
+                                                src="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/homebg-150x150.jpg"
+                                                class="vc_single_image-img attachment-thumbnail" alt=""
+                                                srcset="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/homebg-150x150.jpg 150w, http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/homebg-80x80.jpg 80w"
+                                                sizes="(max-width: 150px) 100vw, 150px"/></div>
+                                    </figure>
+                                </div>
+
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p style="text-align: center;">I am text block. Click edit button to change this
+                                            text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-5">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"><h3 class="fac-title text-center" style="color:#4b4b4b">
+                                Education</h3>
+                                <ul class="ul-card ">
+                                    <li class="">
+                                        <div class="dy">
+                                            <span class="degree">Ph.D.</span>
+                                            <span class="year">1995</span></div>
+                                        <div class="description">
+                                            <p class="what">Ph.D. in Marketing</p>
+                                            <p class="where">Stanford University Graduate School of Business</p></div>
+                                    </li>
+                                    <li class="">
+                                        <div class="dy">
+                                            <span class="degree">Ph.D.</span>
+                                            <span class="year">1995</span></div>
+                                        <div class="description">
+                                            <p class="what">Ph.D. in Marketing</p>
+                                            <p class="where">Stanford University Graduate School of Business</p></div>
+                                    </li>
+                                    <li class="">
+                                        <div class="dy">
+                                            <span class="degree">Ph.D.</span>
+                                            <span class="year">1995</span></div>
+                                        <div class="description">
+                                            <p class="what">Ph.D. in Marketing</p>
+                                            <p class="where">Stanford University Graduate School of Business</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-5">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"><h3 class="fac-title text-center" style="color:#4b4b4b">
+                                Positions</h3>
+                                <ul class="ul-dates ">
+                                    <li class="">
+                                        <div class="dates"><span>Present</span><span>2014</span></div>
+                                        <div class="content"><h4>General Atlantic Professor</h4>
+                                            <p>Stanford University, Graduate School of Business</p></div>
+                                    </li>
+                                    <li class="">
+                                        <div class="dates"><span>2014</span><span>2005</span></div>
+                                        <div class="content"><h4>Full Professor</h4>
+                                            <p>UCLA, Anderson Graduate School of Management</p></div>
+                                    </li>
+                                    <li class="">
+                                        <div class="dates"><span>2014</span><span>2005</span></div>
+                                        <div class="content"><h4>Full Professor</h4>
+                                            <p>UCLA, Anderson Graduate School of Management</p></div>
+                                    </li>
+                                    <li class="">
+                                        <div class="dates"><span>2014</span><span>2005</span></div>
+                                        <div class="content"><h4>Full Professor</h4>
+                                            <p>UCLA, Anderson Graduate School of Management</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-10">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"><h3 class="fac-title text-center" style="color:#4b4b4b">Featured
+                                Publications</h3>
+                                <div class="fac-publications">
+                                    <div class="pitems">
+                                        <div class="item">
+                                            <div class="pubmain pub-has-thumbnail">
+                                                <div class="pub-thumb"><img width="113" height="150"
+                                                                            src="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/1-s2.0-S0965230207X00560-cov150h.gif"
+                                                                            class="attachment-medium size-medium wp-post-image"
+                                                                            alt=""/></div><!-- .pub-thumb -->
+                                                <div class="pub-contents"><h4 class="pubtitle"><a
+                                                        href="http://owwwlab.com/wp-faculty-2/pubs/pub1-7-copy/">Predictors
+                                                    of intraocular pressure change after phacoemulsification in patients
+                                                    with pseudoexfoliation syndrome.</a></h4>
+                                                    <div class="pubcontents"><a
+                                                            href="http://owwwlab.com/wp-faculty-2/pubtype/conference/"><span
+                                                            class="label label-warning">Conference</span></a><a
+                                                            href="http://owwwlab.com/wp-faculty-2/pubtype/journal-paper/"><span
+                                                            class="label label-warning">Journal Paper</span></a>
+                                                        <div class="pubauthor">Da-Gang WANG, Ying MA</div>
+                                                        <!-- .pubauthor -->
+                                                        <div class="pubcite"> Journal of Consumer Psychology, Volume 22,
+                                                            Issue 2, April 2012, Pages 191-194
+                                                        </div><!-- .pubcite -->
+                                                        <div class="pubyear">Publication year: 2015</div>
+                                                        <!-- .pubyear --></div><!-- .pubcontents --></div>
+                                                <!-- .pub-contents -->
+                                                <div class="clearfix"></div>
+                                            </div><!-- .pubmain --></div><!-- .item -->
+                                        <div class="item">
+                                            <div class="pubmain pub-has-thumbnail">
+                                                <div class="pub-thumb"><img width="113" height="150"
+                                                                            src="http://owwwlab.com/wp-faculty-2/wp-content/uploads/2015/05/S00014575.gif"
+                                                                            class="attachment-medium size-medium wp-post-image"
+                                                                            alt=""/></div><!-- .pub-thumb -->
+                                                <div class="pub-contents"><h4 class="pubtitle"><a
+                                                        href="http://owwwlab.com/wp-faculty-2/pubs/pub1-7/">Inheritance
+                                                    of Resistance to Soybean Mosaic Virus Strains SC4 and SC8 in
+                                                    Soybean</a></h4>
+                                                    <div class="pubcontents"><a
+                                                            href="http://owwwlab.com/wp-faculty-2/pubtype/conference/"><span
+                                                            class="label label-warning">Conference</span></a><a
+                                                            href="http://owwwlab.com/wp-faculty-2/pubtype/journal-paper/"><span
+                                                            class="label label-warning">Journal Paper</span></a>
+                                                        <div class="pubauthor">Da-Gang WANG, Ying MA</div>
+                                                        <!-- .pubauthor -->
+                                                        <div class="pubcite"> Journal of Consumer Psychology, Volume 22,
+                                                            Issue 2, April 2012, Pages 191-194
+                                                        </div><!-- .pubcite -->
+                                                        <div class="pubyear">Publication year: 2015</div>
+                                                        <!-- .pubyear --></div><!-- .pubcontents --></div>
+                                                <!-- .pub-contents -->
+                                                <div class="clearfix"></div>
+                                            </div><!-- .pubmain --></div><!-- .item --></div><!-- .pitems --></div>
+                                <!-- .fac-publications --></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom vc_row-has-fill">
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"><h2
+                                    style="font-size: 28px;color: #ffffff;line-height: 1.2;text-align: center;font-family:PT Sans;font-weight:700;font-style:normal"
+                                    class="vc_custom_heading">I always like to look on the optimistic side of life, but
+                                I am realistic enough to know that life is a complex matter.</h2></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid">
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-10">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"><h3 class="fac-title text-center" style="color:#4b4b4b">My
+                                Awards</h3>
+                                <ul class="timeline ">
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="">
+                                        <div class="date">2015</div>
+                                        <div class="circle"></div>
+                                        <div class="data">
+                                            <div class="subject">Distinguished Scientific Achievement Award</div>
+                                            <div class="text row">
+                                                <div class="col-md-12">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
+                                                    dapibus lectus non dignissim. Pellentesque auctor ornare urna,
+                                                    volutpat condimentum quam porttitor at. Vestibulum tincidunt diam in
+                                                    eros aliquam luctus. Donec sagittis a purus a porttitor. Sed non
+                                                    feugiat enim. Donec eget metus erat. Vivamus sed consequat orci. <a
+                                                        href="http://themeforest.net/item/faculty-responsive-academic-wordpress-theme/6817161"
+                                                        target="_blank">Aenean</a> commodo lectus sed purus auctor
+                                                    ullamcorper.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+        <div id="overlay"></div>
     </div>
-    <hr>
-    </div>
-    </div>
-    </div>
-
-
-    <footer>
-        <div class="container">
-            <p>&copy; Copyright IBM 2013-<span id="copyright-last-year"><script>document.write(new Date().getFullYear())</script></span></p>
-        </div>
-    </footer>
-    </div>
-    <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/strftime.js"></script>
-    <script type="text/javascript" src="orgs.js"></script>
-    <script type="text/javascript">
-        var updated = [];
-        var allrepos = [];
-
-        // go to http://thissite.example.com/#DEBUG to set DEBUG=true
-        var DEBUG = (window.location.hash === '#DEBUG');
-        var progress = 0;
-
-        (function($, undefined) {
-
-            var repoUrls = {};
-
-            function repoUrl(repo) {
-                return repoUrls[repo.name] || repo.html_url;
-            }
-
-            function addUpdated() {
-                $("#updated").empty();
-                for (r = 0; r < Math.min(4, updated.length); r++) {
-                    repo = updated[r];
-                    var $uitem = $("<div>").addClass("updated-card col-sm-5 col-md-4 col-lg-3");
-                    var $item = $("<div>").addClass("card pin " + (repo.language || '').toLowerCase() + " " + repo.name.toLowerCase());
-                    var $scrollbarOuter = $("<div>").addClass("scrollbar-outer").appendTo($item)
-                    var $scrollbarInner = $("<div>").addClass("scrollbar-inner").appendTo($scrollbarOuter)
-                    var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($scrollbarInner);
-                    $link.append($("<h4>").text(repo.name));
-                    $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
-                    $scrollbarInner.append($("<p>").text(repo.description != null) ? repo.description : "");
-                    $item.appendTo($uitem);
-                    $uitem.appendTo("#updated");
-                    $scrollbarInner.css("padding-right",($scrollbarInner[0].offsetWidth - $scrollbarInner[0].clientWidth));
-                }
-
-                var d = $("#updated").collapse({
-                    toggle: true
-                });
-
-            }
-
-            function addAllRepos() {
-                $("#allrepos").empty();
-                var counter = 0;
-                if (window.location.hash === '#showall') {
-                    for (r = 0; r < allrepos.length; r++) {
-                        repo = allrepos[r];
-                        var $item = $("<div>").addClass("card pin col-sm-5 col-md-4 col-lg-3 item " + (repo.language || '').toLowerCase() + " " + repo.name.toLowerCase());
-                        var $scrollbarOuter = $("<div>").addClass("scrollbar-outer").appendTo($item)
-                        var $scrollbarInner = $("<div>").addClass("scrollbar-inner").appendTo($scrollbarOuter)
-                        var scrollbarOuter = document.createElement('div');
-                        var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($scrollbarInner);
-                        $link.append($("<h4>").html(repo.name + "<div class='org'><a href='" + repo.owner.html_url + "'>(" + repo.owner.login + ")"));
-                        $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
-                        $scrollbarInner.append($("<p>").text(repo.description != null) ? repo.description : "");
-                        htag = "#allrepos";
-                        $item.appendTo(htag);
-                        $scrollbarInner.css("padding-right",($scrollbarInner[0].offsetWidth - $scrollbarInner[0].clientWidth));
-                        counter++;
-                    }
-                    $(".nrepos").text(": " + counter + " shown. Click 'Show fewer' to show only 20 repos");
-                } else {
-                    for (r = 0; r < Math.min(20, allrepos.length); r++) {
-                        repo = allrepos[r];
-                        var $item = $("<div>").addClass("card pin col-sm-5 col-md-4 col-lg-3 item " + (repo.language || '').toLowerCase() + " " + repo.name.toLowerCase());
-                        var $scrollbarOuter = $("<div>").addClass("scrollbar-outer").appendTo($item)
-                        var $scrollbarInner = $("<div>").addClass("scrollbar-inner").appendTo($scrollbarOuter)
-                        var scrollbarOuter = document.createElement('div');
-                        var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($scrollbarInner);
-                        $link.append($("<h4>").html(repo.name + "<div class='org'><a href='" + repo.owner.html_url + "'>(" + repo.owner.login + ")"));
-                        $link.append($("<h5>").text((repo.language != null) ? repo.language : ""));
-                        $scrollbarInner.append($("<p>").text(repo.description != null) ? repo.description : "");
-                        htag = "#allrepos";
-                        $item.appendTo(htag);
-                        $scrollbarInner.css("padding-right",($scrollbarInner[0].offsetWidth - $scrollbarInner[0].clientWidth));
-                        counter++;
-                    }
-                    $(".nrepos").text(": " + counter + " shown. Click 'Show more' to see other " + (allrepos.length - counter) + " repos");
-                }
-                $("#allrepos").collapse({
-                    toggle: true
-                })
-            }
-
-            function pushRepo(repos, org) {
-                var left = repos;
-                var right = allrepos;
-                var result = [],
-                    il = 0,
-                    ir = 0;
-
-                while (il < left.length && ir < right.length) {
-                    if (left[il].name.toLowerCase() < right[ir].name.toLowerCase()) {
-                        result.push(left[il++]);
-                    } else {
-                        result.push(right[ir++]);
-                    }
-                }
-
-                allrepos = result.concat(left.slice(il)).concat(right.slice(ir));
-            }
-
-            function mergeUpdated(repos) {
-                var left = repos;
-                var right = updated;
-                var result = [],
-                    il = 0,
-                    ir = 0;
-
-                while (il < left.length && ir < right.length) {
-                    if (left[il].pushed_at > right[ir].pushed_at) {
-                        result.push(left[il++]);
-                    } else {
-                        result.push(right[ir++]);
-                    }
-                }
-
-                updated = result.concat(left.slice(il)).concat(right.slice(ir));
-            }
-
-            function addRepos(orgs, repos, page) {
-                var forks = [];
-                var org = orgs.name;
-                repos = repos || [];
-                page = page || 1;
-                reposcmd = orgs.type === "repo" ? "" : "/repos";
-
-                // There are three supported request types: org, user and repo. Syntax differs.
-                if ((orgs.type !== 'org') && (orgs.type !== 'user') && (orgs.type !== 'repo')) {
-                    console.log('** Unknown type “' + orgs.type + '” for org “' + org + '” — check “orgs.js” for typo.');
-                    return;
-                }
-
-                // These client tokens are for a dummy app, and there is no user specific
-                // information that we get, so all in all, pretty safe to expose this here.
-                var uri = "https://api.github.com/" + orgs.type + "s/" + org + reposcmd +
-                    "?per_page=1000" +
-                    "&client_id=1bafa09b6086eec7afb4" +
-                    "&client_secret=7e6422a0a2e24f0d0ecb7521a63990b5758c9cc8";
-                $.getJSON(uri, function(result) {
-                    if (!Array.isArray(result)) {
-                        result = [].concat(result);
-                    }
-                    if (result && result.length > 0) {
-                        repos = repos.concat(result);
-
-                        $(function() {
-
-                            $.each(repos, function(i, repo) {
-                                repo.pushed_at = new Date(repo.pushed_at);
-                                if (repo.fork === true) { // if this is a fork, save the index
-                                    forks.push(i);
-                                }
-                            });
-
-                            // remove forks from the view
-                            $.each(forks, function(i, forkindex) {
-                                var indextoremove = forkindex - i; // account for prior splices
-                                if (DEBUG) console.log('removing forked entry: ' + repos[indextoremove].full_name);
-                                repos.splice(indextoremove, 1);
-                            });
-
-                            // pre sort by how recently the repo was modified
-                            repos.sort(function(a, b) {
-                                if (a.pushed_at < b.pushed_at) return 1;
-                                if (b.pushed_at < a.pushed_at) return -1;
-                                return 0;
-                            });
-
-                            mergeUpdated(repos);
-
-                            repos.sort(function(a, b) {
-                                if (a.name.toLowerCase() > b.name.toLowerCase()) {
-                                    return 1;
-                                }
-                                if (b.name.toLowerCase() > a.name.toLowerCase()) {
-                                    return -1
-                                };
-                                return 0;
-                            });
-
-                            pushRepo(repos, org);
-
-                            // add 4 recently updated repos sorted by latest updates
-                            addUpdated();
-
-                            // add all other repos
-                            addAllRepos();
-
-                        });
-                    }
-                }).always(function() {
-                    updateProgress();
-                });
-            }
-
-            var formatPercent = function simplePercent(x) {
-                return (x * 100).toFixed(0);
-            }
-
-            var formatInt = function simpleNum(x) {
-                return x.toLocaleString();
-            }
-
-            if (window.hasOwnProperty('Intl')) {
-                var pctFormat = new Intl.NumberFormat([], {
-                    style: 'percent'
-                });
-                var decFormat = new Intl.NumberFormat([], {
-                    style: 'decimal',
-                    maximumFractionDigits: 0
-                });
-
-                formatPercent = function intlPercent(x) {
-                    return pctFormat.format(x);
-                };
-
-                formatInt = function intlNum(x) {
-                    return decFormat.format(x);
-                };
-            }
-
-            function updateProgress() {
-                progress++;
-
-                var fract = progress / orgs.length;
-
-                $progress.text(formatPercent(fract));
-
-                if (progress >= orgs.length) {
-                    $progress.delay(1000).fadeOut();
-                }
-            }
-
-            $("<div>").addClass("separator").appendTo("#wrapper");
-            var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
-            var $title = $("<span>").addClass('title').text("recent").appendTo($sectiontitle);
-            var $item = $("<div id='updated'>").addClass("columns section collapse");
-            $item.appendTo($sectiontitle);
-            var $twistie = $("<a data-toggle='collapse' data-target='#updated'>").addClass("twistie showdetails");
-            $twistie.appendTo($sectiontitle);
-
-            $("<div>").addClass("separator gap").appendTo("#wrapper");
-            var $sectiontitle = $("<div>").addClass("section-title").appendTo("#wrapper");
-            var $title = $("<span>").addClass('title').text("repos").appendTo($sectiontitle);
-            var $repos = $("<span>").addClass('nrepos').text("(0)").appendTo($title);
-            var $progress = $("<span>").addClass('loading').text("0 %").appendTo($title);
-            var $item = $("<div id='allrepos'>").addClass("columns section collapse");
-            $item.appendTo($sectiontitle);
-            var $twistie = $("<a data-toggle='collapse' data-target='#allrepos'>").addClass("twistie showdetails");
-            $twistie.appendTo($sectiontitle);
-
-            for (var r in orgs) {
-                addRepos(orgs[r]);
-            }
-
-            $("<div>").addClass("separator").appendTo("#wrapper");
-
-
-
-        })(jQuery);
-
-        $('#search').keyup(function() {
-            var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
-            $rows = $(".card")
-            $rows.show().filter(function() {
-                var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-                return !~text.indexOf(val);
-            }).hide();
-
-            // update repo count here
-            n = $rows.length;
-            for (r in $rows) {
-                row = $rows[r];
-                style = row.style;
-                if (style && style.cssText && style.cssText.match("none")) {
-                    n--;
-                }
-
-            }
-
-            $rows = $(".updated-card");
-            $rows.show().filter(function() {
-                var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-                return !~text.indexOf(val);
-            }).hide();
-
-            m = 4;
-            for (r in $rows) {
-                row = $rows[r];
-                style = row.style;
-                if (style && style.cssText && style.cssText.match("none")) {
-                    m--;
-                }
-
-            }
-
-            $(".nrepos").text("(" + (n - m) + ")");
-
-
-            // ---------------------------------
-            // Google Analytics Event Tracking
-            //
-            //
-            // usage: add the following attributes to links you want to track:
-            //   data-analytics-category=""    REQUIRED  String   Typically the object that was interacted with (e.g. button)
-            //   data-analytics-action=""      REQUIRED  String   The type of interaction (e.g. click)
-            //   data-analytics-label=""       OPTIONAL  String   Useful for categorizing events (e.g. nav buttons)
-            //   data-analytics-value=""       OPTIONAL  Integer  Values must be non-negative. Useful to pass counts (e.g. 4 times)
-            //
-            // Those are the suggested usages, but you can use the attributes how you want
-            // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more details
-            //
-            // EXAMPLE:
-            // <a href="http://ibm.com" data-analytics-category="Leadspace button" data-analytics-action="To ibm.com">Off you go!</a>
-            // ---------------------------------
-
-            $('body').on('click', 'a[data-analytics-category][data-analytics-action]', function(e) {
-
-                // No analytics? Bail.
-                if (!window.ga)
-                    return;
-
-                // for links to external sources, we need a tiny delay to have a little extra time to send to Google's servers before unload
-                // 200ms is about right for enough time
-                if (this.hostname && this.hostname !== location.hostname) {
-
-                    // Stop the link action
-                    e.preventDefault();
-
-                    // setTimeout callback is called in the window scope, so cache the url from the link now
-                    var url = this.href;
-
-                    // in 200ms, off you go
-                    setTimeout(function() {
-                        document.location = url;
-                    }, 200);
-                }
-
-                // make a new data object
-                var $el = $(this),
-                    data = {
-                        'hitType': 'event'
-                    };
-
-                // category (required string)
-                data['eventCategory'] = $el.attr('data-analytics-category');
-
-                // action (required string)
-                data['eventAction'] = $el.attr('data-analytics-action');
-
-                // label (optional string)
-                if ($el.attr('data-analytics-label')) {
-                    data['eventLabel'] = $el.attr('data-analytics-label');
-                }
-
-                // value (optional int)
-                if ($el.attr('data-analytics-value')) {
-                    data['eventValue'] = parseInt($el.attr('data-analytics-value'));
-                }
-
-                // send the data
-                ga('send', data);
-
-            });
-        });
-
+</div>
+
+<div id="facwpfooter">
+    <link rel='stylesheet' id='vc_google_fonts_pt_sansregularitalic700700italic-css'
+          href='//fonts.googleapis.com/css?family=PT+Sans%3Aregular%2Citalic%2C700%2C700italic&#038;ver=4.9.7'
+          type='text/css' media='all'/>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "http:\/\/owwwlab.com\/wp-faculty-2\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            }, "recaptcha": {"messages": {"empty": "Please verify that you are not a robot."}}
+        };
+        /* ]]> */
     </script>
-
-
+    <script type='text/javascript' src='js/scripts.js'></script>
+    <!--<script type='text/javascript'-->
+            <!--src='http://owwwlab.com/wp-faculty-2/wp-content/themes/faculty/js/bootstrap.min.js?ver=3.14.0'></script>-->
+    <script type='text/javascript' src='js/jquery/jquery-touchSwipe.min.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-mousewheel.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-carouFredSel-packed.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-dropdownit.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-mixitup.min.js'></script>
+    <!--<script type='text/javascript'-->
+            <!--src='http://owwwlab.com/wp-faculty-2/wp-content/themes/faculty/js/magnific-popup.js?ver=3.14.0'></script>-->
+    <script type='text/javascript' src='js/imagesloaded.min.js'></script>
+    <script type='text/javascript' src='js/masonry.min.js'></script>
+    <script type='text/javascript' src='js/ScrollToPlugin.min.js'></script>
+    <script type='text/javascript' src='js/TweenMax.min.js'></script>
+    <script type='text/javascript' src='js/jquery/jquery-nicescroll.min.js'></script>
+    <!--<script type='text/javascript' src='http://owwwlab.com/wp-faculty-2/wp-content/themes/faculty/js/owwwlab-lab-carousel.js?ver=3.14.0'></script>-->
+    <!--<script type='text/javascript' src='http://owwwlab.com/wp-faculty-2/wp-includes/js/comment-reply.min.js?ver=4.9.7'></script>-->
+    <!--<script type='text/javascript'-->
+            <!--src='http://owwwlab.com/wp-faculty-2/wp-content/themes/faculty/js/waypoints.min.js?ver=3.14.0'></script>-->
+    <!--<script type='text/javascript'-->
+            <!--src='http://owwwlab.com/wp-faculty-2/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.4.7'></script>-->
+    <script type='text/javascript' src='js/custom.js'></script>
+    <script type='text/javascript' src='js/wp-embed.min.js'></script>
+    <script type='text/javascript' src='js/skrollr.min.js'></script>
+</div>
 </body>
-
 </html>
