@@ -3,97 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9c86964e-21ef-4f0b-b7f4-d81ec09b8309" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-BoldOblique.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-Book.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-BookOblique.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-Demi.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-Demi.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-DemiOblique.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-ExtraLight.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-ExtraLightObl.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-Medium.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Lubalin/LubalinGraphStd-MediumOblique.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Bd.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BdOu.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Blk.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BlkCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BlkCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BlkEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BlkExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-BlkIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Cn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-CnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Ex.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Hv.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-HvCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-HvCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-HvEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-HvExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-HvIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-It.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Lt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-LtCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-LtCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-LtEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-LtExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-LtIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Md.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-MdCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-MdCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-MdEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-MdExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-MdIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Roman.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-Th.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ThCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ThCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ThEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ThExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-ThIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLtCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLtCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLtEx.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLtExO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-UltLtIt.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-XBlkCn.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/helvneue/HelveticaNeueLTStd-XBlkCnO.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/agile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-dwn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/bigdata.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/btn-or.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/btn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/busanalytics.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/cloud.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/dWmark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/header_mh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/header_t.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/ibmneg_white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/ibmneg_white_42x20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/mobile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/open-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pattern.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/security.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/updated.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/strftime.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/orgs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pubs.html" afterPath="$PROJECT_DIR$/pubs.html" />
+      <change beforePath="$PROJECT_DIR$/research.html" afterPath="$PROJECT_DIR$/research.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,48 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="646" column="68" lean-forward="true" selection-start-line="646" selection-start-column="68" selection-end-line="646" selection-end-column="68" />
+            <state relative-caret-position="328">
+              <caret line="124" column="139" lean-forward="false" selection-start-line="124" selection-start-column="125" selection-end-line="124" selection-end-column="142" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1542409318484" expanded="true" signature="7107:7144" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="academicons.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/academicons.css">
+      <file leaf-file-name="research.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/research.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48535">
-              <caret line="2855" column="17" lean-forward="false" selection-start-line="2855" selection-start-column="17" selection-end-line="2855" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="11">
+              <caret line="128" column="49" lean-forward="false" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1542495603256" expanded="true" signature="1706:1841" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +59,14 @@
     <findStrings>
       <find>http://</find>
       <find>vc_custom_1484140330837</find>
+      <find>data-vc-parallax-image</find>
+      <find>vc-parallax</find>
+      <find>menu-item-home</find>
+      <find>fa-home</find>
+      <find>menu-item-21</find>
+      <find>fa-facebook</find>
+      <find>fontawesome-text</find>
+      <find>svg</find>
     </findStrings>
     <replaceStrings>
       <replace>https://</replace>
@@ -167,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/magnific-popup.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
@@ -191,7 +101,11 @@
         <option value="$PROJECT_DIR$/js/TweenMax.min.js" />
         <option value="$PROJECT_DIR$/js/jquery/jquery-nicescroll.min.js" />
         <option value="$PROJECT_DIR$/js/skrollr.min.js" />
+        <option value="$PROJECT_DIR$/css/font-awesome.min.old.css" />
+        <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pubs.html" />
+        <option value="$PROJECT_DIR$/research.html" />
       </list>
     </option>
   </component>
@@ -263,6 +177,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="data-vc-parallax&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,6 +194,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1542429307868" text="data-vc-parallax-image" recursive="true" caseInsensitive="true" type="HTML" history="1" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -290,18 +208,20 @@
       <option name="presentableId" value="Default" />
       <updated>1542389975916</updated>
       <workItem from="1542389977321" duration="6634000" />
-      <workItem from="1542403422842" duration="1673000" />
+      <workItem from="1542403422842" duration="2862000" />
+      <workItem from="1542427883431" duration="7672000" />
+      <workItem from="1542490120995" duration="5577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8307000" />
+    <option name="totallyTimeSpent" value="22745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1637" y="203" width="1857" height="1092" extended-state="6" />
+    <frame x="1637" y="203" width="2497" height="1452" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17520216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14388777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -334,25 +254,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="45" lean-forward="true" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.old.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/fontawesome-free-5.5.0-web/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68068">
+          <caret line="4004" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4013" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/academicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67388">
+          <caret line="3964" column="23" lean-forward="true" selection-start-line="3964" selection-start-column="23" selection-end-line="3964" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1542409318484" expanded="true" signature="7107:7144" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/academicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48535">
+          <caret line="2855" column="17" lean-forward="false" selection-start-line="2855" selection-start-column="17" selection-end-line="2855" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -368,7 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48535">
           <caret line="2855" column="17" lean-forward="true" selection-start-line="2855" selection-start-column="17" selection-end-line="2855" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,13 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="6755" column="1" lean-forward="true" selection-start-line="6755" selection-start-column="1" selection-end-line="6755" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -429,27 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/academicons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48535">
-          <caret line="2855" column="17" lean-forward="false" selection-start-line="2855" selection-start-column="17" selection-end-line="2855" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8993">
           <caret line="529" column="0" lean-forward="true" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="22434" lean-forward="false" selection-start-line="15" selection-start-column="22434" selection-end-line="15" selection-end-column="22434" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="892">
           <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="892">
           <caret line="2097" column="11" lean-forward="false" selection-start-line="2097" selection-start-column="11" selection-end-line="2097" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7836" lean-forward="false" selection-start-line="0" selection-start-column="7836" selection-end-line="0" selection-end-column="7836" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,9 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,9 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1746" lean-forward="false" selection-start-line="11" selection-start-column="1746" selection-end-line="11" selection-end-column="1746" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="1143" column="27" lean-forward="false" selection-start-line="1143" selection-start-column="27" selection-end-line="1143" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1398" lean-forward="false" selection-start-line="0" selection-start-column="1398" selection-end-line="0" selection-end-column="1398" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,9 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,32 +470,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="348" column="26" lean-forward="false" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/fontawesome-free-5.5.0-web/css/fontawesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64777">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/fontawesome-free-5.5.0-web/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68068">
+          <caret line="4004" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4013" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.old.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="3964" column="23" lean-forward="false" selection-start-line="3964" selection-start-column="23" selection-end-line="3964" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/academicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="646" column="68" lean-forward="true" selection-start-line="646" selection-start-column="68" selection-end-line="646" selection-end-column="68" />
+        <state relative-caret-position="328">
+          <caret line="124" column="139" lean-forward="false" selection-start-line="124" selection-start-column="125" selection-end-line="124" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1542409318484" expanded="true" signature="7107:7144" ph="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/research.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="128" column="49" lean-forward="false" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1542495603256" expanded="true" signature="1706:1841" ph="..." />
           </folding>
         </state>
       </provider>
