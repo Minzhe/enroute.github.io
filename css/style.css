@@ -2866,10 +2866,6 @@ body {
 .vc_custom {
     background-color: rgba(252, 252, 252, 0.61) !important;
     *background-color: rgb(252, 252, 252) !important;
-}
-
-.vc_custom {
-    background-image: url("../image/head.img.jpeg") !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
