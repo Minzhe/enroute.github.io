@@ -1,3 +1,3 @@
-# mariazevedo88.github.io
+# minzhe.github.io
 
-My personal website: https://mariazevedo88.github.io/
+My personal website: https://minzhe.github.io/
