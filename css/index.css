@@ -246,7 +246,11 @@ p {
   margin-bottom: 5px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
