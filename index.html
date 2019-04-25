@@ -138,18 +138,20 @@
             
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-                <!-- ******************************    section 2    ********************************* -->
+                <!-- ******************************    section 1    ********************************* -->
                 <div class="intro">
                     <p>Machine learning and deep learning</p>
-                </div><!--//intro-->
+                </div>
                 <div class="item">
-                    <span class="project-title"><a href="" target="_blank">Convolutional neural network model for entity relation extraction</a></span>
+                    <span class="project-title"><a data-target="#modal-project1" data-toggle="modal">
+                        Convolutional neural network model for entity relation extraction
+                    </a></span>
                     <div class="project-tagline">
                         Developed a convolutional neural network model to extract entity relations from text corpus.
                         Used word embedding to transform tokens into numeric vectors, and applied convolutional kernels to extract semantic features to do prediction.
                     </div>
                     <div class="company">Deep Learning, Convolutional neural network, Word embedding, Relation extraction, Information retrieval</div>
-                </div><!--//item-->
+                </div>
                 <div class="item">
                     <span class="project-title"><a href="" target="_blank">DrivenData competition: predicting water pump functionality using machine learning</a></span>
                     <div class="project-tagline">
@@ -218,6 +220,30 @@
                     <div class="company">Drug-Induced Genomic Response models (DIGREM), Precision matrix, Drug synergy, Online tool</div>
                 </div>
             </section><!--//section-->
+            <div class="modal" id="modal-project1" role="dialog">
+                <div class="modal-content">
+                    <div class="modal-head">
+                        <img class="head-picture" src="images/nlp-cnn-model.png"/>
+                    </div>
+                    <hr/>
+                    <div class="modal-intro">
+                        <div class="intro-title">Convolutional neural network model for entity relation extraction</div>
+                        <div class="intro-text">
+                            In recent years, various large-scale knowledge bases (KBs) such as Freebase, Google’s Knowledge Graph and Microsoft’s Satori 
+                            have been built and widely used to power web search engine and question answering. These KBs mostly compose of relational facts 
+                            of entities. Although existing KBs already collected facts from various large structured database, there is still a massive 
+                            amount of real-world facts that stores in unstructured text. To enrich KBs, many efforts have been invested in automatically 
+                            extracting those unknown relational facts.
+                        </div>
+                        <div class="intro-text">
+                            The task of relation classification (RE) can be defined as follow: given a sentence S with annotated pairs of nominals e1 and e2, 
+                            we aim to identify the relations between e1 and e2, therefore can be considered as multi-class classification problems. We applied 
+                            a convolutional neural network framework to automatically extract the lexical and sentence level features without complicated 
+                            preprocessing. Then the features are fed into softmax classifier to predict the relationship of two marked nouns.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- ====================================================    publication    ============================================================= -->
             <section class="section papers-section">
@@ -270,15 +296,6 @@
             
         </div><!--//main-body-->
     </div>
- 
-    <footer class="footer">
-        <div class="text-center">
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-        <div class="text-center">
-          <small class="copyright">Improved/Updated by Mariana Azevedo</small>
-        </div>
-    </footer><!--//footer-->
  
     <!-- Javascript -->          
     <script type="text/javascript" src="js/jquery.min.js"></script>

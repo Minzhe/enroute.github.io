@@ -41,6 +41,13 @@ Since: 06/08/2016
 			}
 		];
 
+		$scope.projectML = [
+			{'title': 'Convolutional neural network model for entity relation extraction',
+			 'intro': 'Developed a convolutional neural network model to extract entity relations from text corpus. Used word embedding to transform tokens into numeric vectors, and applied convolutional kernels to extract semantic features to do prediction.',
+			 'keyword': 'Deep Learning, Convolutional neural network, Word embedding, Relation extraction, Information retrieval'
+			}
+		]
+
 	  	$scope.init = function(){
 	  		$scope.callback();
 	  	};
